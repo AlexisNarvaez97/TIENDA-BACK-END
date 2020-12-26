@@ -10,7 +10,7 @@ Especificar la información detallada del usuario
 """
 type User {
     id: ID!
-    name: String!;
+    name: String!
     lastName: String!
     email: String!
     password: String!
