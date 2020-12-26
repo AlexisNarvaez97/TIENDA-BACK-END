@@ -1,0 +1,20 @@
+"Definiciones de los tipos de raíz"
+type Query {
+    "Lista de usuarios registrados en la BD (Clientes/Admins)"
+    users: [User!]!
+}
+
+
+"""
+Especificar la información detallada del usuario
+"""
+type User {
+    id: ID!
+    name: String!;
+    lastName: String!
+    email: String!
+    password: String!
+    registerDate: String!
+    birthday: String!
+}
+
