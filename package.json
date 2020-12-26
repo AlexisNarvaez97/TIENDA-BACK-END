@@ -1,0 +1,32 @@
+{
+  "name": "tienda-back-end",
+  "version": "0.0.1",
+  "description": "Proyecto Backend API - MEAN",
+  "main": "build/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisNarvaez97/TIENDA-BACK-END.git"
+  },
+  "keywords": [
+    "graphql",
+    "angular",
+    "node",
+    "express"
+  ],
+  "author": "Alexis Narvaez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisNarvaez97/TIENDA-BACK-END/issues"
+  },
+  "homepage": "https://github.com/AlexisNarvaez97/TIENDA-BACK-END#readme",
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
